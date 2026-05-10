@@ -1,132 +1,131 @@
-# LinkedIn Selenium Automation Framework
 
-A clean, production-ready Selenium (Python) automation framework for LinkedIn — built with **Page Object Model**, **pytest**, and **Allure reporting**.
+# LinkedIn UI Automation Framework
+
+A scalable UI automation framework built using Selenium WebDriver, Python, pytest, and Page Object Model (POM) architecture.
+
+This project demonstrates reusable automation design practices for LinkedIn workflows including login functionality, navigation validation, and maintainable Selenium framework structure.
+
+> Note: LinkedIn UI changes frequently. Some locators may require updates over time.
 
 ---
 
-## Project Structure
+# Tech Stack
 
-```
-selenium-linkedin-automation/
+- Python
+- Selenium WebDriver
+- pytest
+- Page Object Model (POM)
+- WebDriver Manager
+
+---
+
+# Framework Features
+
+- Reusable Page Object Model architecture
+- Centralized BasePage utilities
+- Config-driven test execution
+- Scalable test structure
+- Explicit wait handling
+- Reusable Selenium wrappers
+- Clean separation of pages, tests, and utilities
+- Pytest fixture support
+
+---
+
+# Project Structure
+
+linkedin-ui-automation-framework/
+│
 ├── base/
-│   └── base_page.py          # Reusable Selenium interactions
+│   ├── base_page.py
+│   └── driver_factory.py
+│
 ├── config/
-│   └── config.ini            # Environment & timeout config (no real credentials)
+│   └── config.ini
+│
 ├── pages/
-│   └── linkedin_page.py      # LinkedIn Page Object
+│   └── linkedin_page.py
+│
 ├── tests/
-│   ├── conftest.py           # pytest fixtures (driver setup/teardown)
-│   ├── test_linkedin.py      # LinkedIn test suite
-│   └── post_content/
-│       └── input_text.txt    # Post content read dynamically at runtime
+│   ├── conftest.py
+│   └── test_linkedin.py
+│
 ├── utilities/
-│   ├── config_reader.py      # Centralised config access
-│   └── logger.py             # Framework-wide logger
-├── reports/                  # Auto-generated test logs (git-ignored)
-├── screenshots/              # Auto-generated on failure (git-ignored)
-├── .gitignore
-├── pytest.ini
+│   ├── config_reader.py
+│   └── custom_logger.py
+│
 ├── requirements.txt
-└── README.md
-```
+├── pytest.ini
+├── README.md
+└── .gitignore
+
 
 ---
 
-## Prerequisites
+# Supported Workflows
 
-- Python 3.10+
-- Google Chrome (latest)
-- Selenium 4.x — **no manual chromedriver download needed** (Selenium Manager handles it)
+* LinkedIn login automation
+* Feed navigation validation
+* Reusable page interaction methods
+* Config-driven credentials handling
 
 ---
 
-## Setup
+# Installation
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/swatikumari278/selenium-linkedin-automation.git
-cd selenium-linkedin-automation
-
-# 2. Create and activate virtual environment
-python -m venv .venv
-source .venv/bin/activate        # macOS/Linux
-.venv\Scripts\activate           # Windows
-
-# 3. Install dependencies
+Clone repository:
+git clone https://github.com/swatikumari278/linkedin-ui-automation-framework.git
+Navigate to project folder:
+cd linkedin-ui-automation-framework
+Install dependencies:
 pip install -r requirements.txt
 
-# 4. Configure credentials
-#    Edit config/config.ini and set your LinkedIn email and password.
-#    NEVER commit real credentials — use a local override file instead.
-```
 
----
 
-## Credentials Setup
 
-Update `config/config.ini`:
+# Configuration
 
-```ini
-[credentials]
-linkedin_email    = your_email@example.com
-linkedin_password = your_password
-```
+Update credentials inside:
+config/config.ini
+Example:
+linkedin_email = YOUR_EMAIL
+linkedin_password = YOUR_PASSWORD
 
-> **Security note:** `config/config.local.ini` is git-ignored. You can keep your real credentials there and point `config_reader.py` to it for local runs.
 
----
+# Run Tests
+Run all tests:
 
-## Running Tests
-
-```bash
-# Run all tests
 pytest
-
-# Run with verbose output
+Run with verbose output:
 pytest -v
+Run specific test:
 
-# Run a specific test file
 pytest tests/test_linkedin.py
 
-# Run with Allure reporting
-pytest --alluredir=allure-results
-allure serve allure-results
+# Framework Highlights
+
+* Demonstrates scalable Selenium framework design using Python
+* Uses reusable BasePage abstraction methods
+* Follows Page Object Model best practices
+* Designed for maintainability and readability
+
+---
+
+# Future Enhancements
+
+* Allure reporting integration
+* CI/CD execution with GitHub Actions
+* Parallel execution support
+* Docker integration
+* Cross-browser execution
+
+---
+
+# Author
+
+Swati Kumari
+QA Automation Lead | Senior SDET
+Open to QA Automation opportunities across Europe
+
 ```
-
----
-
-## Test Coverage
-
-| Test Class              | What it covers                              |
-|-------------------------|---------------------------------------------|
-| `TestLinkedInSignIn`    | Sign-in flow with valid credentials         |
-| `TestLinkedInPostCreation` | Create a text post from an external file |
-
----
-
-## Framework Design Decisions
-
-- **Page Object Model** — All locators and interactions are encapsulated in page classes. Tests contain only assertions and flow logic.
-- **Selenium Manager** — No hardcoded chromedriver path. Selenium 4.x automatically downloads and manages the correct driver.
-- **Config-driven** — Base URL, timeouts, and credentials are all read from `config.ini`. No magic strings in tests.
-- **Centralised logging** — All framework activity is logged to `reports/automation.log` with timestamps.
-- **Fixture-based teardown** — `conftest.py` ensures the browser is always closed cleanly, even on test failure.
-
----
-
-## Allure Report Example
-
-After running with `--alluredir`, the Allure report shows:
-- Test results per class
-- Execution timeline
-- Failure screenshots (when configured)
-- Step-level breakdown
-
-> Note: This project demonstrates Selenium + Python framework architecture using Page Object Model.  
-> Some LinkedIn locators may require updates because LinkedIn UI changes frequently.
-
-
-##Author
-
-**Swati Kumari** — QA Automation Lead | Senior SDET  
-[LinkedIn](https://linkedin.com/in/swati-kumari-76a028103) · [GitHub](https://github.com/swatikumari278)
+```
