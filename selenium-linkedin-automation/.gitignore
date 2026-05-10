@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Selenium / browser drivers
+chromedriver*
+geckodriver*
+*.exe
+
+# Test output
+reports/automation.log
+screenshots/
+.pytest_cache/
+allure-results/
+allure-report/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Credentials — NEVER commit real config
+config/config.local.ini
+*.local.ini
+
+# OS
+.DS_Store
+Thumbs.db
