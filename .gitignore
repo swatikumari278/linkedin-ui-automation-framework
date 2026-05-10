@@ -1,0 +1,12 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+Reports/
+Screenshots/
+.pytest_cache/
+allure-results/
+allure-report/
+chromedriver*/
+*.log
+.env
