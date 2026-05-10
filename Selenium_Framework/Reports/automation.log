@@ -1,0 +1,50 @@
+07/06/25 01:37:19 PM Saturday - <module> - INFO : web page launched
+08/06/25 01:14:59 AM Sunday - BaseClass - INFO : Web Page Launched with URL : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+08/06/25 01:15:04 AM Sunday - BaseClass - INFO : WebElement found with locator value username using locatorType name
+08/06/25 01:15:04 AM Sunday - BaseClass - INFO : Clicked on WebElement with locator value username using locatorType name
+08/06/25 01:15:04 AM Sunday - BaseClass - INFO : WebElement found with locator value username using locatorType name
+08/06/25 01:15:04 AM Sunday - BaseClass - INFO : Sent the text Admin in WebElement with locator value username using locatorType name
+08/06/25 01:15:04 AM Sunday - BaseClass - INFO : WebElement found with locator value password using locatorType name
+08/06/25 01:15:04 AM Sunday - BaseClass - INFO : Clicked on WebElement with locator value password using locatorType name
+08/06/25 01:16:34 AM Sunday - BaseClass - INFO : Web Page Launched with URL : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+08/06/25 01:16:39 AM Sunday - BaseClass - INFO : WebElement found with locator value username using locatorType name
+08/06/25 01:16:39 AM Sunday - BaseClass - INFO : Clicked on WebElement with locator value username using locatorType name
+08/06/25 01:16:39 AM Sunday - BaseClass - INFO : WebElement found with locator value username using locatorType name
+08/06/25 01:16:39 AM Sunday - BaseClass - INFO : Sent the text Admin in WebElement with locator value username using locatorType name
+08/06/25 01:16:39 AM Sunday - BaseClass - INFO : WebElement found with locator value password using locatorType name
+08/06/25 01:16:39 AM Sunday - BaseClass - INFO : Clicked on WebElement with locator value password using locatorType name
+08/06/25 01:16:39 AM Sunday - BaseClass - INFO : WebElement found with locator value password using locatorType name
+08/06/25 01:16:39 AM Sunday - BaseClass - INFO : Sent the text admin123 in WebElement with locator value password using locatorType name
+08/06/25 01:16:39 AM Sunday - BaseClass - INFO : WebElement found with locator value //button[@type='submit'] using locatorType xpath
+08/06/25 01:16:39 AM Sunday - BaseClass - INFO : Clicked on WebElement with locator value //button[@type='submit'] using locatorType xpath
+08/06/25 01:17:04 AM Sunday - BaseClass - ERROR : WebElement not found with locator value Dashboard using locatorType xpath
+08/06/25 01:17:04 AM Sunday - BaseClass - ERROR : WebElement is not Displayed on web page with locator value Dashboard using locatorType xpath
+08/06/25 01:20:56 AM Sunday - BaseClass - INFO : Web Page Launched with URL : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+08/06/25 01:21:01 AM Sunday - BaseClass - INFO : WebElement found with locator value username using locatorType name
+08/06/25 01:21:02 AM Sunday - BaseClass - INFO : Clicked on WebElement with locator value username using locatorType name
+08/06/25 01:21:02 AM Sunday - BaseClass - INFO : WebElement found with locator value username using locatorType name
+08/06/25 01:21:02 AM Sunday - BaseClass - INFO : Sent the text Admin in WebElement with locator value username using locatorType name
+08/06/25 01:21:02 AM Sunday - BaseClass - INFO : WebElement found with locator value password using locatorType name
+08/06/25 01:21:02 AM Sunday - BaseClass - INFO : Clicked on WebElement with locator value password using locatorType name
+08/06/25 01:21:02 AM Sunday - BaseClass - INFO : WebElement found with locator value password using locatorType name
+08/06/25 01:21:02 AM Sunday - BaseClass - INFO : Sent the text admin123 in WebElement with locator value password using locatorType name
+08/06/25 01:21:02 AM Sunday - BaseClass - INFO : WebElement found with locator value //button[@type='submit'] using locatorType xpath
+08/06/25 01:21:02 AM Sunday - BaseClass - INFO : Clicked on WebElement with locator value //button[@type='submit'] using locatorType xpath
+08/06/25 01:21:04 AM Sunday - BaseClass - INFO : WebElement found with locator value //h6[text()='Dashboard'] using locatorType xpath
+08/06/25 01:21:04 AM Sunday - BaseClass - INFO : WebElement is Displayed on web page with locator value //h6[text()='Dashboard'] using locatorType xpath
+08/06/25 01:21:33 AM Sunday - BaseClass - INFO : Web Page Launched with URL : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+08/06/25 01:21:38 AM Sunday - BaseClass - INFO : WebElement found with locator value username using locatorType name
+08/06/25 01:21:38 AM Sunday - BaseClass - INFO : Clicked on WebElement with locator value username using locatorType name
+08/06/25 01:21:38 AM Sunday - BaseClass - INFO : WebElement found with locator value username using locatorType name
+08/06/25 01:21:38 AM Sunday - BaseClass - INFO : Sent the text Admin in WebElement with locator value username using locatorType name
+08/06/25 01:21:38 AM Sunday - BaseClass - INFO : WebElement found with locator value password using locatorType name
+08/06/25 01:21:38 AM Sunday - BaseClass - INFO : Clicked on WebElement with locator value password using locatorType name
+08/06/25 01:21:38 AM Sunday - BaseClass - INFO : WebElement found with locator value password using locatorType name
+08/06/25 01:21:38 AM Sunday - BaseClass - INFO : Sent the text admin123 in WebElement with locator value password using locatorType name
+08/06/25 01:21:38 AM Sunday - BaseClass - INFO : WebElement found with locator value //button[@type='submit'] using locatorType xpath
+08/06/25 01:21:38 AM Sunday - BaseClass - INFO : Clicked on WebElement with locator value //button[@type='submit'] using locatorType xpath
+08/06/25 01:21:40 AM Sunday - BaseClass - INFO : WebElement found with locator value //h6[text()='Dashboard'] using locatorType xpath
+08/06/25 01:21:40 AM Sunday - BaseClass - INFO : WebElement is Displayed on web page with locator value //h6[text()='Dashboard'] using locatorType xpath
+08/06/25 01:48:14 AM Sunday - BaseClass - INFO : Web Page Launched with URL : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+08/06/25 01:48:21 AM Sunday - BaseClass - ERROR : WebElement not found with locator value //button[@fdprocessedid='qqvdy9'] using locatorType xpath
+08/06/25 01:48:21 AM Sunday - BaseClass - ERROR : Unable to Click on WebElement with locator value //button[@fdprocessedid='qqvdy9'] using locatorType xpath

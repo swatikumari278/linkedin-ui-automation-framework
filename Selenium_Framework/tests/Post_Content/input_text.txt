@@ -1,0 +1,45 @@
+########################################
+#           GIT COMMANDS LIST          #
+########################################
+
+# --- Configuration ---
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+# --- Create or Clone a Repository ---
+git init                             # Initialize new repo
+git clone <repo_url>                 # Clone existing repo
+
+# --- Status & Tracking ---
+git status                           # Check current status
+git add <file>                       # Stage a specific file
+git add .                            # Stage all files
+git commit -m "Your message"         # Commit with message
+
+# --- Branching ---
+git branch                           # List branches
+git branch <new-branch>              # Create new branch
+git checkout <branch>                # Switch branch
+git checkout -b <new-branch>         # Create and switch
+
+# --- Merging ---
+git merge <branch>                   # Merge into current branch
+
+# --- Push & Pull ---
+git push origin <branch>             # Push to remote
+git pull origin <branch>             # Pull latest changes
+
+# --- Undo Changes ---
+git reset --soft HEAD~1              # Undo last commit (keep files)
+git reset --hard HEAD~1              # Undo last commit (discard all)
+git restore <file>                   # Discard local file changes
+git restore --staged <file>          # Unstage a file
+
+# --- Logs ---
+git log                              # Full commit log
+git log --oneline                    # Condensed commit log
+
+# --- Remote Repository ---
+git remote -v                        # Show remotes
+git remote add origin <url>          # Add a new remote
+git push -u origin main              # Push and set upstream
